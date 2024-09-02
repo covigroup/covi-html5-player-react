@@ -42,7 +42,7 @@
       * [함수형 컴포넌트가 언마운트되는 시점에 `disposeCoviplayers` SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80-%EC%96%B8%EB%A7%88%EC%9A%B4%ED%8A%B8%EB%90%98%EB%8A%94-%EC%8B%9C%EC%A0%90%EC%97%90-disposecoviplayers-sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
 
     - [SDK 내장 함수 사용](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)
-      * [runCoviPlayer()](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#1-runcoviplayer)
+      * [runCoviplayer()](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#1-runCoviplayer)
       * [disposeCoviplayers()](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#2-disposecoviplayers)
 
   + [이벤트 트래킹 로그 전송 체크](https://github.com/covigroup/covi-html5-player-react?tab=readme-ov-file#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9-%EB%A1%9C%EA%B7%B8-%EC%A0%84%EC%86%A1-%EC%B2%B4%ED%81%AC)
@@ -218,12 +218,12 @@ export default Page;
 <br>
 
 ## SDK 내장 함수 사용
-  - 전역 window 객체에서 Covi SDK 내장 함수 runCoviPlayer, disposeCoviplayers 함수를 가져와서 사용할 수 있습니다.
+  - 전역 window 객체에서 Covi SDK 내장 함수 runCoviplayer, disposeCoviplayers 함수를 가져와서 사용할 수 있습니다.
 ```
-const { runCoviPlayer, disposeCoviplayers } = window
+const { runCoviplayer, disposeCoviplayers } = window
 ```
 
-### 1) runCoviPlayer()
+### 1) runCoviplayer()
 COVI Player 인스턴스를 생성하고 로드합니다.
 
 ### 2) disposeCoviplayers()
